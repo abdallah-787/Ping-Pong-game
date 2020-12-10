@@ -58,14 +58,14 @@ def square1_down():
     square1.sety(y)
 
 def square2_up():
-    y = square2.ycor()
-    y += 20
-    square2.sety(y)
+    x = square2.ycor()
+    x += 20
+    square2.sety(x)
 
 def square2_down():
-    y = square2.ycor()
-    y -= 20
-    square2.sety(y)
+    x = square2.ycor()
+    x -= 20
+    square2.sety(x)
 
 #Keybord bindings
 wind.listen()
